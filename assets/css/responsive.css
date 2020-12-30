@@ -1,0 +1,327 @@
+@media (max-width: 1280px) {
+  .course-category .section-padding {
+    padding: 8% 0;
+  }
+  .course-category.category-01 .category-slider {
+    padding-top: 35px;
+  }
+  .course-category.category-01 .category-slider .owl-nav {
+    right: 0;
+    top: -10%;
+    margin-top: 0;
+    width: 75px;
+  }
+}
+@media (max-width: 1024px) {
+  .posts.style-02 article .entry-content .entry-title {
+    margin: 10px 0;
+  }
+  .posts.style-02 article .entry-content p {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .posts .col-sm-3.col-xs-6 article {
+    padding-bottom: 0;
+  }
+  .posts .col-sm-3.col-xs-6 article .entry-content .entry-title {
+    font-size: 20px;
+  }
+  .posts .load-more {
+    margin-top: 45px;
+  }
+  .posts.style-02 article .entry-thumbnail {
+    margin-right: 20px;
+  }
+  .posts.style-02 article .entry-content .entry-title {
+    margin: 10px 0;
+  }
+  .posts.style-02 article .entry-content .entry-meta {
+    padding-bottom: 11px;
+  }
+  .posts.style-02 article .entry-content p {
+    margin: 10px 0;
+  }
+  .featured-slider article .entry-content .entry-title {
+    font-size: 20px;
+  }
+  aside.sidebar {
+    padding-left: 0;
+  }
+  .col-sm-4.pull-left aside.sidebar {
+    padding-right: 0;
+  }
+  .single-post-type .post-top .entry-title {
+    font-size: 25px;
+  }
+  .single-post-type .entry-content ul,
+  .single-post-type .entry-content ol {
+    padding-left: 15px;
+  }
+  .comment-form .wpcf7-form-control-wrap,
+  .comment-form .comment-form-control-wrap {
+    width: 31%;
+  }
+  .single-post-type .format-link .entry-thumbnail a {
+    font-size: 25px;
+  }
+  .page-contents .title {
+    font-size: 30px;
+    margin: 20px 0 30px;
+    padding: 10px 0 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header-bottom {
+    overflow: hidden;
+  }
+  .header-bottom:hover {
+    overflow: visible;
+  }
+  .header-bottom .navbar-default {
+    text-align: center;
+  }
+  .header-bottom .navbar-default .navbar-header {
+    float: none;
+  }
+  .header-bottom .navbar-default .navbar-nav {
+    float: none;
+  }
+  .header-bottom .navbar-default .navbar-nav li {
+    display: inline-block;
+    float: none;
+  }
+  .header-bottom .navbar-default .navbar-nav li a {
+    padding: 19px 15px;
+  }
+  .header-bottom .navbar-default .navbar-nav li.menu-item-has-children {
+    position: relative;
+  }
+  .header-bottom .navbar-default .navbar-nav li.menu-item-has-children .sub-menu,
+  .header-bottom .navbar-default .navbar-nav li.menu-item-has-children .children {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  .header-bottom .navbar-default .navbar-nav li.menu-item-has-children:hover .sub-menu,
+  .header-bottom .navbar-default .navbar-nav li.menu-item-has-children:hover .children {
+    height: auto;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  header .header-top .sb-search {
+    margin-top: 0;
+  }
+  header .header-top .top-social {
+    margin-top: 8px;
+  }
+  header .header-bottom .navbar-default {
+    min-height: inherit;
+  }
+  header .header-bottom .navbar-default .navbar-brand {
+    height: 36px;
+    line-height: 1;
+    margin-top: 6px;
+    padding: 0;
+  }
+  header .header-bottom .navbar-default .navbar-toggle {
+    border: none;
+    color: #282727;
+    font-size: 30px;
+    margin: 7px 0;
+    padding: 0;
+  }
+  header .header-bottom .navbar-default .navbar-toggle:hover,
+  header .header-bottom .navbar-default .navbar-toggle:focus {
+    background: none;
+  }
+  header .header-bottom .navbar-default .navbar-collapse {
+    padding: 0;
+  }
+  header .header-bottom .navbar-default .navbar-nav {
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+  }
+  header .header-bottom .navbar-default .navbar-nav li a {
+    padding: 7px 0;
+  }
+  header .header-bottom .navbar-default .navbar-nav .sub-menu,
+  header .header-bottom .navbar-default .navbar-nav .children {
+    background: none;
+    display: none;
+    padding: 0 15px;
+    width: 100%;
+  }
+  header .header-bottom .navbar-default .navbar-nav .sub-menu li,
+  header .header-bottom .navbar-default .navbar-nav .children li {
+    background: none;
+    padding: 0;
+  }
+  header .header-bottom .navbar-default .navbar-nav .sub-menu li a,
+  header .header-bottom .navbar-default .navbar-nav .children li a {
+    border: none !important;
+    color: #282727 !important;
+    font-size: 12px;
+    padding: 5px 0 !important;
+  }
+  header .header-bottom .navbar-default .navbar-nav li.menu-item-has-children.open a:hover,
+  header .header-bottom .navbar-default .navbar-nav li.menu-item-has-children.open a:focus {
+    background: none;
+    color: #282727;
+  }
+  header .header-bottom .navbar-default .navbar-nav li.menu-item-has-children.open .sub-menu,
+  header .header-bottom .navbar-default .navbar-nav li.menu-item-has-children.open .children {
+    display: block;
+    height: auto;
+    opacity: 1;
+  }
+  .entry-content .entry-title {
+    margin: 10px 0;
+  }
+  .posts .col-sm-3.col-xs-6 article {
+    padding: 40px 0 0;
+  }
+  .posts .col-sm-3.col-xs-6 article .entry-title {
+    font-size: 18px;
+  }
+  .posts .col-sm-3.col-xs-6 article .post-meta {
+    margin-bottom: 0;
+  }
+  .posts .load-more {
+    margin-top: 20px;
+  }
+  .posts .load-more .btn,
+  .featured-post article .entry-content .btn {
+    padding: 10px 15px;
+  }
+  aside.sidebar {
+    margin-top: 40px;
+  }
+  .pagination.pagination-01 {
+    margin-top: 20px;
+  }
+  .featured-post article .entry-content {
+    width: 100%;
+  }
+  .featured-post article .entry-content .entry-title {
+    font-size: 22px;
+  }
+  .entry-content .entry-title {
+    font-size: 18px;
+  }
+  .featured-post {
+    margin: 40px 0 25px;
+  }
+  .single-post-type {
+    margin-top: 40px;
+  }
+  .single-post-type .author-bio {
+    padding: 30px 0;
+  }
+  .single-post-type .widget_related_posts {
+    margin: 28px 0 0;
+  }
+  .single-post-type .widget_related_posts .widget-details {
+    margin-top: 20px;
+  }
+  .single-post-type .entry-content h1,
+  .single-post-type .entry-content h2,
+  .single-post-type .entry-content h3,
+  .single-post-type .entry-content h4,
+  .single-post-type .entry-content h5,
+  .single-post-type .entry-content h6 {
+    margin-top: 30px;
+  }
+  .wpcf7-form input[type="submit"],
+  .comment-form input[type="submit"] {
+    padding: 10px 20px;
+  }
+  .page-contents .title {
+    font-size: 25px;
+    margin: 10px 0 20px;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .posts.style-02 article .entry-thumbnail {
+    margin-right: 0;
+    max-width: inherit;
+    width: 100%;
+  }
+  .single-post-type .widget_related_posts div[class*="col-"] {
+    padding: 0;
+  }
+  .single-post-type .format-side-image .entry-thumbnail {
+    float: none;
+    margin-right: 0;
+    max-width: inherit;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .single-post-type .author-bio .author-details {
+    display: inline-block;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .comment-list li .comment-details {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+  }
+  .wpcf7-form .wpcf7-form-control-wrap,
+  .comment-form .wpcf7-form-control-wrap,
+  .wpcf7-form .comment-form-control-wrap,
+  .comment-form .comment-form-control-wrap {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 480px) and (orientation: landscape) {
+  .posts.style-02 article .entry-thumbnail {
+    margin-right: 0;
+    max-width: inherit;
+    width: 100%;
+  }
+  .comment-list li .comment-details {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+  }
+  .wpcf7-form .wpcf7-form-control-wrap,
+  .comment-form .wpcf7-form-control-wrap,
+  .wpcf7-form .comment-form-control-wrap,
+  .comment-form .comment-form-control-wrap {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  .single-post-type .format-side-image .entry-thumbnail {
+    float: none;
+    margin-right: 0;
+    max-width: inherit;
+    width: 100%;
+  }
+}
